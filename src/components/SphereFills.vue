@@ -140,15 +140,15 @@
     }
 
     .block-red {
-        background-color: red;
+        background-color: #ff033e;
     }
 
     .block-green {
-        background-color: rgb(0, 255, 13);
+        background-color: #32de84;
     }
 
     .block-gray {
-        background-color: rgb(115, 115, 115);
+        background-color: #899499;
     }
 
     .desc {
