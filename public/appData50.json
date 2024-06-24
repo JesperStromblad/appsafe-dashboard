@@ -12,7 +12,7 @@
         {
             "App name": "7 Cups: Online Therapy & Chat",
             "Which phone hardware(s) can be misued from app?*": "Storage",
-            "Is data collected by third party?*": "Yes (Google)",
+            "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,

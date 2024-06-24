@@ -3,7 +3,7 @@
         <div :class="!company ? 'data numbers' : 'data numbers align'">{{ data }}</div>
         <div v-if="!company" class="data label">{{ info }}</div>
         <div v-else class="data">
-            <p class="analytic-label">Analytics collected</p>
+            <p class="analytic-label">Data collected by commerical party</p>
             <img src="../assets/google.png" width="40px" height="40px" />
             <img src="../assets/huawei.png" width="40px" height="40px" />
         </div>
