@@ -1,5 +1,8 @@
 <template>
-    <div id="sphere_id" class="sphere fill"></div>
+    <p>Maximum</p>
+    <div class="outer_sphere outer_fill">
+        <div id="sphere_id" class="sphere fill"></div>
+    </div>
 </template>
 
 <script setup>
@@ -20,15 +23,21 @@
         },
     });
 
-    function setSphereSize() {
+    function setSphereSize(size) {
+        const maxSize = 250;
+        const minSize = 50;
+        let minMargin = 40;
+        let maxMargin = 1;
+        const marginTop = minMargin + ((maxMargin - minMargin) / (maxSize - minSize)) * (size - minSize);
         document.getElementById('sphere_id').style.width = props.issues + 'px';
         document.getElementById('sphere_id').style.height = props.issues + 'px';
+        document.getElementById('sphere_id').style.marginTop = marginTop + '%';
     }
 
     watch(
         () => props.issues,
         () => {
-            setSphereSize();
+            setSphereSize(props.issues);
             setSpehereFillColor();
         }
     );
@@ -38,16 +47,34 @@
     }
 
     onMounted(() => {
-        setSphereSize();
+        setSphereSize(props.issues);
         setSpehereFillColor();
     });
 </script>
 
 <style scoped>
-    .sphere {
+    p {
+        margin: 0;
+        color: rgb(138, 128, 128);
+    }
+    .outer_sphere {
         border-radius: 50%;
         width: 90%;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .outer_fill {
+        width: 260px;
+        height: 260px;
+        border: 2px dotted rgb(138, 128, 128);
+    }
+
+    .sphere {
+        margin-top: 10%;
+        border-radius: 50%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fill {

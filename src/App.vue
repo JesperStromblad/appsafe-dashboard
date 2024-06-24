@@ -123,7 +123,6 @@
     function getTotalIssues(app) {
         let totalIssues = 0;
         app.forEach((data) => {
-            console.debug(data);
             if (data && data['Can device be controlled remotely?'] !== null) {
                 totalIssues++;
             }
@@ -179,17 +178,16 @@
         const data = app.filter((appData) => {
             return appData['App name'] === questionForApp;
         });
-        console.debug(data[0]['Is data collected by third party?*']);
+
         // Questions are addressed and data
         if (data[0] && data[0]['Is data collected by third party?*'] !== null) {
-            return 'red';
+            return '#FF033E';
         }
         if (data[0] && data[0]['Is data collected by third party?*'] === null) {
-            return 'green';
+            return '#32de84';
         }
 
-        // Total questions are six
-        return 'gray';
+        return '#899499';
     }
 </script>
 
