@@ -1,5 +1,5 @@
 <template>
-    <p>Maximum</p>
+    <p>Maximum Sphere Size</p>
     <div class="outer_sphere outer_fill">
         <div id="sphere_id" class="sphere fill"></div>
     </div>
@@ -55,7 +55,7 @@
 <style scoped>
     p {
         margin: 0;
-        color: rgb(138, 128, 128);
+        color: black;
     }
     .outer_sphere {
         border-radius: 50%;
@@ -66,7 +66,7 @@
     .outer_fill {
         width: 260px;
         height: 260px;
-        border: 2px dotted rgb(138, 128, 128);
+        border: 2px dotted black;
     }
 
     .sphere {

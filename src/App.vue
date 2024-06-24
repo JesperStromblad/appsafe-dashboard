@@ -3,8 +3,8 @@
     <h2>Overall statistics</h2>
     <div v-for="(app, index) in appData" :key="index">
         <div class="blocks">
-            <BlockDisplay :data="10" info="Total Apps"></BlockDisplay>
-            <BlockDisplay :data="getTotalIssues(app)" info="Total issues"></BlockDisplay>
+            <BlockDisplay :data="31" info="Total Apps"></BlockDisplay>
+            <BlockDisplay :data="getTotalIssues(app)" info="Privacy issues"></BlockDisplay>
             <BlockDisplay :data="2" info="Total issues" :company="true"></BlockDisplay>
         </div>
 
@@ -49,7 +49,7 @@
     let selectedOption = ref('7 Cups: Online Therapy & Chat');
 
     onMounted(async () => {
-        const data = await axios.get('appData.json');
+        const data = await axios.get('appData50.json');
         appData.value = data.data;
     });
 

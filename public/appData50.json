@@ -1,0 +1,292 @@
+{
+    "appData": [
+        {
+            "App name": "",
+            "Which phone hardware(s) can be misued from app?*": "Which phone hardware(s) can be misued from app?*",
+            "Is data collected by third party?*": "Is data collected by third party?*",
+            "Can third party update a ligitimate app with a malicious one?": "Can third party update a ligitimate app with a malicious one?",
+            "Can third party intercept application communication?": "Can third party intercept application communication?",
+            "Can harmful code be executed remotely?": "Can harmful code be executed remotely?",
+            "Can device be controlled remotely?": "Can device be controlled remotely?"
+        },
+        {
+            "App name": "7 Cups: Online Therapy & Chat",
+            "Which phone hardware(s) can be misued from app?*": "Storage",
+            "Is data collected by third party?*": "Yes (Google)",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "PanicShield - Panic Attack Aid",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": null,
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Slumber",
+            "Which phone hardware(s) can be misued from app?*": "Telephone calls and logs\n",
+            "Is data collected by third party?*": "Huawei",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Moodnotes",
+            "Which phone hardware(s) can be misued from app?*": "Track Location,\nTelephone calls and logs,\nStorage\n",
+            "Is data collected by third party?*": null,
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Habitica",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Woebot: Your Self-Care Expert",
+            "Which phone hardware(s) can be misued from app?*": "Storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "distrACT",
+            "Which phone hardware(s) can be misued from app?*": "Access to Contacts",
+            "Is data collected by third party?*": null,
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "Headspace",
+            "Which phone hardware(s) can be misued from app?*": "Calender, \nTelephone calls and logs,  \nStorage\n",
+            "Is data collected by third party?*": "Huawei ",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "VGZ Mindfullness coach",
+            "Which phone hardware(s) can be misued from app?*": "Camera,\nStorage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Minddistrict",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Insight Timer",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Huawei ",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "HubOfHope",
+            "Which phone hardware(s) can be misued from app?*": "Location, Storage",
+            "Is data collected by third party?*": null,
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Mindler",
+            "Which phone hardware(s) can be misued from app?*": "Calender, microphone, storage\n",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Online Therapy: Meet with Your Therapist Online",
+            "Which phone hardware(s) can be misued from app?*": "Phone calls and logs",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "",
+            "Can device be controlled remotely?": ""
+        },
+        {
+            "App name": "Calm",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Huawei",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "",
+            "Can device be controlled remotely?": ""
+        },
+        {
+            "App name": "Feeling Good: Mental Health",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "",
+            "Can device be controlled remotely?": ""
+        },
+        {
+            "App name": "Holly Health (personal coach)",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Huawei",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Sleepio - for insomnia",
+            "Which phone hardware(s) can be misued from app?*": "Storage",
+            "Is data collected by third party?*": "Huawei ",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Noisli",
+            "Which phone hardware(s) can be misued from app?*": "Storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Somryst",
+            "Which phone hardware(s) can be misued from app?*": "Phone calls , logs and phone storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "Dream EZ",
+            "Which phone hardware(s) can be misued from app?*": "Microphone, Phone calls , logs and storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Virtual Hope Box",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": null,
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Daylio Journal",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Huawei",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Brain in Hand",
+            "Which phone hardware(s) can be misued from app?*": "Phone calls and logs",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": null,
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Ilovehue",
+            "Which phone hardware(s) can be misued from app?*": "Storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": null,
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "MyCognition PRO",
+            "Which phone hardware(s) can be misued from app?*": "Phone calls, logs and storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "Everyday Mental Health by Wysa",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Clear Fear",
+            "Which phone hardware(s) can be misued from app?*": "Microphone, Phone calls , logs and storage",
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": null,
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "InnerHour: Self-Care Therapy",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": "Yes"
+        },
+        {
+            "App name": "MindShift CBT",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": null,
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
+        },
+        {
+            "App name": "Glow Eve",
+            "Which phone hardware(s) can be misued from app?*": null,
+            "Is data collected by third party?*": "Google",
+            "Can third party update a ligitimate app with a malicious one?": "Yes",
+            "Can third party intercept application communication?": "Yes",
+            "Can harmful code be executed remotely?": "Yes",
+            "Can device be controlled remotely?": "Yes"
+        }
+    ]
+}
