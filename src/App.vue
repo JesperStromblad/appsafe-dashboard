@@ -17,7 +17,8 @@
                 <option v-for="(data, index) in app" :value="data['App name']" :key="index">{{ data['App name'] }}</option>
             </select>
         </div>
-        <h2>Sphere representing usage of data by addressing privacy questions</h2>
+        <h2>Data privacy concerns</h2>
+
         <SphereFills :issues="getIssues(app, selectedOption)" :sphereColor="getColor(app, selectedOption)"></SphereFills>
         <div class="qna-block">
             <div class="question">Can device be controlled remotely?</div>

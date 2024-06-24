@@ -1,7 +1,32 @@
 <template>
-    <p>Maximum Sphere Size</p>
+    <p>Maximum Bubble Size</p>
     <div class="outer_sphere outer_fill">
         <div id="sphere_id" class="sphere fill"></div>
+    </div>
+    <div class="label-container">
+        <div class="label-column">
+            <div class="label">
+                <div class="info">Size of Bubble</div>
+                <div class="desc">Presence of privacy concerns (6 in total)</div>
+            </div>
+        </div>
+        <div class="label-column">
+            <div class="label">
+                <div class="info">Color of Bubble:</div>
+                <div class="desc">
+                    <div class="block-red"></div>
+                    Data marketed and privacy concerns exist
+                </div>
+                <div class="desc">
+                    <div class="block-gray"></div>
+                    No data marketed and no privacy concerns exist
+                </div>
+                <div class="desc">
+                    <div class="block-green"></div>
+                    No data marketed but privacy concerns exist
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -56,6 +81,7 @@
     p {
         margin: 0;
         color: black;
+        text-align: center;
     }
     .outer_sphere {
         border-radius: 50%;
@@ -79,5 +105,55 @@
 
     .fill {
         background: yellow;
+    }
+
+    .label-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+    }
+
+    .label-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align items horizontally */
+        text-align: center; /* Center align text within each column */
+        margin-right: 20px;
+    }
+
+    .label {
+        margin-bottom: 8px;
+    }
+
+    .info {
+        font-weight: bold;
+    }
+
+    .block-red,
+    .block-green,
+    .block-gray {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    .block-red {
+        background-color: red;
+    }
+
+    .block-green {
+        background-color: rgb(0, 255, 13);
+    }
+
+    .block-gray {
+        background-color: rgb(115, 115, 115);
+    }
+
+    .desc {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center align content horizontally */
     }
 </style>
