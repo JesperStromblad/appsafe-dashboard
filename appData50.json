@@ -49,7 +49,7 @@
             "App name": "Habitica",
             "Which phone hardware(s) can be misued from app?*": null,
             "Is data collected by third party?*": "Google",
-            "Can third party update a ligitimate app with a malicious one?": "",
+            "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
             "Can device be controlled remotely?": null
@@ -132,8 +132,8 @@
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
-            "Can harmful code be executed remotely?": "",
-            "Can device be controlled remotely?": ""
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
         },
         {
             "App name": "Calm",
@@ -141,17 +141,17 @@
             "Is data collected by third party?*": "Huawei",
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
-            "Can harmful code be executed remotely?": "",
-            "Can device be controlled remotely?": ""
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
         },
         {
             "App name": "Feeling Good: Mental Health",
             "Which phone hardware(s) can be misued from app?*": null,
-            "Is data collected by third party?*": "",
+            "Is data collected by third party?*": null,
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
-            "Can harmful code be executed remotely?": "",
-            "Can device be controlled remotely?": ""
+            "Can harmful code be executed remotely?": null,
+            "Can device be controlled remotely?": null
         },
         {
             "App name": "Holly Health (personal coach)",
