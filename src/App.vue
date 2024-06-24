@@ -7,7 +7,9 @@
             <BlockDisplay :data="getTotalIssues(app)" info="Total issues"></BlockDisplay>
             <BlockDisplay :data="2" info="Total issues" :company="true"></BlockDisplay>
         </div>
+
         <hr class="line" />
+
         <h2>Select an individual App</h2>
         <div class="custom-select">
             <select v-model="selectedOption">
@@ -15,8 +17,8 @@
                 <option v-for="(data, index) in app" :value="data['App name']" :key="index">{{ data['App name'] }}</option>
             </select>
         </div>
-        <IssueLevel :issues="getIssues(app, selectedOption)"></IssueLevel>
-        <p class="heading">Privacy and security issues</p>
+        <h2>Sphere representing usage of data by addressing privacy questions</h2>
+        <SphereFills :issues="getIssues(app, selectedOption)" :sphereColor="getColor(app, selectedOption)"></SphereFills>
         <div class="qna-block">
             <div class="question">Can device be controlled remotely?</div>
             <div class="answer">{{ getQuestion1(app, selectedOption) }}</div>
@@ -39,7 +41,8 @@
     import axios from 'axios';
 
     import BlockDisplay from './components/BlockDisplay.vue';
-    import IssueLevel from './components/IssueLevel.vue';
+    import SphereFills from './components/SphereFills.vue';
+
     // Define a reactive value for the meter
 
     let appData = ref([]);
@@ -56,7 +59,7 @@
         });
 
         if (data[0] && data[0]['Can device be controlled remotely?'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Can device be controlled remotely?'];
         }
@@ -67,7 +70,7 @@
         });
 
         if (data[0] && data[0]['Can harmful code be executed remotely?'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Can harmful code be executed remotely?'];
         }
@@ -78,7 +81,7 @@
         });
 
         if (data[0] && data[0]['Can third party intercept application communication?'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Can third party intercept application communication?'];
         }
@@ -89,7 +92,7 @@
         });
 
         if (data[0] && data[0]['Can third party update a ligitimate app with a malicious one?'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Can third party update a ligitimate app with a malicious one?'];
         }
@@ -100,7 +103,7 @@
         });
 
         if (data[0] && data[0]['Is data collected by third party?*'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Is data collected by third party?*'];
         }
@@ -111,7 +114,7 @@
         });
 
         if (data[0] && data[0]['Which phone hardware(s) can be misued from app?*'] === null) {
-            return 'N/A';
+            return 'Unknown';
         } else {
             return data[0] && data[0]['Which phone hardware(s) can be misued from app?*'];
         }
@@ -169,7 +172,24 @@
             totalNotNull++;
         }
         // Total questions are six
-        return (totalNotNull / 6) * 100;
+        return totalNotNull * 50;
+    }
+
+    function getColor(app, questionForApp) {
+        const data = app.filter((appData) => {
+            return appData['App name'] === questionForApp;
+        });
+        console.debug(data[0]['Is data collected by third party?*']);
+        // Questions are addressed and data
+        if (data[0] && data[0]['Is data collected by third party?*'] !== null) {
+            return 'red';
+        }
+        if (data[0] && data[0]['Is data collected by third party?*'] === null) {
+            return 'green';
+        }
+
+        // Total questions are six
+        return 'gray';
     }
 </script>
 
