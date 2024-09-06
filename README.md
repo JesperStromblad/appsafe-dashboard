@@ -1,5 +1,7 @@
 # app-safe
 
+For deployment see file https://gist.github.com/cobyism/4730490
+
 ## Project setup
 ```
 npm install
