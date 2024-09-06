@@ -1,5 +1,12 @@
 <template>
     <div class="header"><h2 class="title">DashBoard</h2></div>
+    <p>
+        This dashboard was made by the APPSAFE project, based at Tilburg and Nijmegen universities and the Trimbos institute. It is designed
+        to visualise the app features that Android app developers are required to report when they submit an app to the Google Play store.
+        These features are required by the Play store, and are defined by requirements based on data protection law.
+    </p>
+    <span>(ERC PoC grant # 101069354 — APPSAFE)</span>
+    <hr />
     <h2>Overall statistics</h2>
     <div v-for="(app, index) in appData" :key="index">
         <div class="blocks">
@@ -21,6 +28,8 @@
 
         <SphereFills :issues="getIssues(app, selectedOption)" :sphereColor="getColor(app, selectedOption)"></SphereFills>
         <div class="qna-block">
+            <p class="category">Security</p>
+            <hr />
             <div class="question">Can device be controlled remotely?</div>
             <div class="answer">{{ getQuestion1(app, selectedOption) }}</div>
             <div class="question">Can harmful code be executed remotely?</div>
@@ -29,15 +38,18 @@
             <div class="answer">{{ getQuestion3(app, selectedOption) }}</div>
             <div class="question">Can third party update a ligitimate app with a malicious one?</div>
             <div class="answer">{{ getQuestion4(app, selectedOption) }}</div>
-            <div class="question">Is data collected by third party?</div>
-            <div class="answer">{{ getQuestion5(app, selectedOption) }}</div>
             <div class="question">Which phone hardware(s) can be misued from app?</div>
             <div class="answer">{{ getQuestion6(app, selectedOption) }}</div>
+            <p class="category">Privacy</p>
+            <hr />
+            <div class="question">Is data collected by third party?</div>
+            <div class="answer">{{ getQuestion5(app, selectedOption) }}</div>
         </div>
     </div>
 </template>
 
 <script setup>
+    // Added changes of Linnet after holidays
     import { onMounted, ref } from 'vue';
     import axios from 'axios';
 
@@ -228,6 +240,12 @@
     .question {
         font-size: 1.5em;
         text-align: left;
+    }
+    .category {
+        font-style: italic;
+        font-size: 1.6em;
+        text-align: left;
+        color: rgb(125, 125, 125);
     }
     .answer {
         font-size: 1.2em;

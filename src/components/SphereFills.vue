@@ -1,29 +1,47 @@
 <template>
-    <p>Maximum Bubble Size</p>
-    <div class="outer_sphere outer_fill">
-        <div id="sphere_id" class="sphere fill"></div>
+    <div class="parallel_sphere">
+        <div>
+            <div id="sphere_color" class="sphere fill"></div>
+        </div>
+        <div class="outer_sphere outer_fill">
+            <div id="sphere_id" class="sphere fill"></div>
+        </div>
     </div>
     <div class="label-container">
         <div class="label-column">
             <div class="label">
-                <div class="info">Size of Bubble</div>
-                <div class="desc">Presence of privacy concerns (6 in total)</div>
+                <div class="label">
+                    <div class="info">Privacy Bubble:</div>
+                    <div class="desc">
+                        <div class="block-red"></div>
+                        Data marketed and privacy concerns exist
+                    </div>
+                    <div class="desc">
+                        <div class="block-gray"></div>
+                        No data marketed and no privacy concerns exist
+                    </div>
+                    <div class="desc">
+                        <div class="block-green"></div>
+                        No data marketed but privacy concerns exist
+                    </div>
+                </div>
             </div>
         </div>
         <div class="label-column">
             <div class="label">
-                <div class="info">Color of Bubble:</div>
+                <div class="info">Security Bubble</div>
+                <p class="legend-info">Size of Bubble: proportion of questions answered by app developer</p>
                 <div class="desc">
                     <div class="block-red"></div>
-                    Data marketed and privacy concerns exist
+                    Developer provided answers to the questions and they indicate concerns
                 </div>
                 <div class="desc">
                     <div class="block-gray"></div>
-                    No data marketed and no privacy concerns exist
+                    Developer provided answers to the questions and they do not indicate concerns
                 </div>
                 <div class="desc">
                     <div class="block-green"></div>
-                    No data marketed but privacy concerns exist
+                    Developer provided (sufficient) answers to the questions
                 </div>
             </div>
         </div>
@@ -32,7 +50,6 @@
 
 <script setup>
     import { defineProps, onMounted, watch } from 'vue';
-
     // Define props
     const props = defineProps({
         issues: {
@@ -68,7 +85,10 @@
     );
 
     function setSpehereFillColor() {
-        document.getElementById('sphere_id').style.background = props.sphereColor;
+        console.debug(props.sphereColor);
+        document.getElementById('sphere_color').style.width = '260px';
+        document.getElementById('sphere_color').style.height = '260px';
+        document.getElementById('sphere_color').style.background = props.sphereColor;
     }
 
     onMounted(() => {
@@ -96,7 +116,6 @@
     }
 
     .sphere {
-        margin-top: 10%;
         border-radius: 50%;
         width: 90%;
         margin-left: auto;
@@ -104,7 +123,7 @@
     }
 
     .fill {
-        background: yellow;
+        background: #d6bba9;
     }
 
     .label-container {
@@ -119,7 +138,7 @@
         flex-direction: column;
         align-items: center; /* Center align items horizontally */
         text-align: center; /* Center align text within each column */
-        margin-right: 20px;
+        margin-right: 5%;
     }
 
     .label {
@@ -128,6 +147,11 @@
 
     .info {
         font-weight: bold;
+    }
+
+    .legend-info {
+        font-size: smaller;
+        font-style: italic;
     }
 
     .block-red,
@@ -155,5 +179,12 @@
         display: flex;
         align-items: center;
         justify-content: center; /* Center align content horizontally */
+    }
+    .parallel_sphere {
+        display: flex;
+        align-items: center; /* Center align items horizontally */
+        justify-content: center; /* Center align content horizontally */
+        width: 90%;
+        margin-left: 15%;
     }
 </style>
