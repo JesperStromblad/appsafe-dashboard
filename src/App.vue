@@ -1,9 +1,9 @@
 <template>
     <div class="header"><h2 class="title">DashBoard</h2></div>
     <p>
-        This dashboard was made by the APPSAFE project, based at Tilburg and Nijmegen universities and the Trimbos institute. It is designed
-        to visualise the app features that Android app developers are required to report when they submit an app to the Google Play store.
-        These features are required by the Play store, and are defined by requirements based on data protection law.
+        This dashboard was made by the APPSAFE project, based at Tilburg university, Radboud universiteit and the Trimbos institute. It is
+        designed to visualise the app features that Android app developers are required to report when they submit an app to the Google Play
+        store. These features are required by the Play store, and are defined by requirements based on data protection law.
     </p>
     <span>(ERC PoC grant # 101069354 — APPSAFE)</span>
     <hr />
