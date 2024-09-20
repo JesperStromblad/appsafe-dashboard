@@ -1,47 +1,36 @@
 <template>
     <div class="parallel_sphere">
         <div>
-            <div id="sphere_color" class="sphere fill"></div>
+            <div title="" id="sphere_color" class="sphere fill"></div>
+            <span class="bubble-info">Privacy Bubble</span>
         </div>
-        <div class="outer_sphere outer_fill">
-            <div id="sphere_id" class="sphere fill"></div>
+
+        <div>
+            <div class="outer_sphere outer_fill">
+                <div id="sphere_id" class="sphere securty_fill"></div>
+            </div>
+            <span class="bubble-info">Security Bubble</span>
         </div>
     </div>
     <div class="label-container">
         <div class="label-column">
             <div class="label">
                 <div class="label">
-                    <div class="info">Privacy Bubble:</div>
+                    <div class="info">Color code description</div>
                     <div class="desc">
                         <div class="block-red"></div>
-                        Data marketed and privacy concerns exist
+                        More substantial concerns exist
                     </div>
                     <div class="desc">
                         <div class="block-gray"></div>
-                        No data marketed and no privacy concerns exist
+                        Insufficient information available
                     </div>
                     <div class="desc">
                         <div class="block-green"></div>
-                        No data marketed but privacy concerns exist
+                        Less substantial concerns exist
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="label-column">
-            <div class="label">
-                <div class="info">Security Bubble</div>
-                <p class="legend-info">Size of Bubble: proportion of questions answered by app developer</p>
-                <div class="desc">
-                    <div class="block-red"></div>
-                    Developer provided answers to the questions and they indicate concerns
-                </div>
-                <div class="desc">
-                    <div class="block-gray"></div>
-                    Developer provided answers to the questions and they do not indicate concerns
-                </div>
-                <div class="desc">
-                    <div class="block-green"></div>
-                    Developer provided (sufficient) answers to the questions
+                    <div class="info add-legend">Bubble Size</div>
+                    <div class="desc">Size of security bubble is proportionaly to questions answered</div>
                 </div>
             </div>
         </div>
@@ -50,6 +39,7 @@
 
 <script setup>
     import { defineProps, onMounted, watch } from 'vue';
+
     // Define props
     const props = defineProps({
         issues: {
@@ -58,7 +48,12 @@
             default: 100,
             validator: (value) => value >= 0 && value <= 100,
         },
-        sphereColor: {
+        spherePrivacyColor: {
+            type: String,
+            required: true,
+            default: 'gray',
+        },
+        sphereSecurityColor: {
             type: String,
             required: true,
             default: 'gray',
@@ -74,6 +69,7 @@
         document.getElementById('sphere_id').style.width = props.issues + 'px';
         document.getElementById('sphere_id').style.height = props.issues + 'px';
         document.getElementById('sphere_id').style.marginTop = marginTop + '%';
+        document.getElementById('sphere_id').style.background = props.sphereSecurityColor;
     }
 
     watch(
@@ -85,10 +81,9 @@
     );
 
     function setSpehereFillColor() {
-        console.debug(props.sphereColor);
         document.getElementById('sphere_color').style.width = '260px';
         document.getElementById('sphere_color').style.height = '260px';
-        document.getElementById('sphere_color').style.background = props.sphereColor;
+        document.getElementById('sphere_color').style.background = props.spherePrivacyColor;
     }
 
     onMounted(() => {
@@ -120,9 +115,10 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 6px;
     }
 
-    .fill {
+    .securty_fill {
         background: #d6bba9;
     }
 
@@ -153,6 +149,9 @@
         font-size: smaller;
         font-style: italic;
     }
+    .bubble-info {
+        font-size: large;
+    }
 
     .block-red,
     .block-green,
@@ -182,9 +181,10 @@
     }
     .parallel_sphere {
         display: flex;
-        align-items: center; /* Center align items horizontally */
-        justify-content: center; /* Center align content horizontally */
+        justify-content: space-around; /* Center align content horizontally */
         width: 90%;
-        margin-left: 15%;
+    }
+    .add-legend {
+        margin-top: 8px;
     }
 </style>

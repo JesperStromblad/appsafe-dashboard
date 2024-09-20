@@ -26,7 +26,10 @@
         </div>
         <h2>Data privacy concerns</h2>
 
-        <SphereFills :issues="getIssues(app, selectedOption)" :sphereColor="getColor(app, selectedOption)"></SphereFills>
+        <SphereFills
+            :issues="getIssues(app, selectedOption)"
+            :spherePrivacyColor="getColorForPrivacy(app, selectedOption)"
+            :sphereSecurityColor="getColorForSecurity(app, selectedOption)"></SphereFills>
         <div class="qna-block">
             <p class="category">Security</p>
             <hr />
@@ -34,11 +37,11 @@
             <div class="answer">{{ getQuestion1(app, selectedOption) }}</div>
             <div class="question">Can harmful code be executed remotely?</div>
             <div class="answer">{{ getQuestion2(app, selectedOption) }}</div>
-            <div class="question">Can third party intercept application communication?</div>
+            <div class="question">Can a third party intercept the application’s communication?</div>
             <div class="answer">{{ getQuestion3(app, selectedOption) }}</div>
-            <div class="question">Can third party update a ligitimate app with a malicious one?</div>
+            <div class="question">Can a third party update this legitimate app with a malicious one?</div>
             <div class="answer">{{ getQuestion4(app, selectedOption) }}</div>
-            <div class="question">Which phone hardware(s) can be misued from app?</div>
+            <div class="question">Which phone hardware(s) can be misused from this app?</div>
             <div class="answer">{{ getQuestion6(app, selectedOption) }}</div>
             <p class="category">Privacy</p>
             <hr />
@@ -187,7 +190,7 @@
         return totalNotNull * 50;
     }
 
-    function getColor(app, questionForApp) {
+    function getColorForPrivacy(app, questionForApp) {
         const data = app.filter((appData) => {
             return appData['App name'] === questionForApp;
         });
@@ -197,10 +200,52 @@
             return '#FF033E';
         }
         if (data[0] && data[0]['Is data collected by third party?*'] === null) {
-            return '#32de84';
+            return '#899499';
         }
+        return '#32de84';
+    }
 
-        return '#899499';
+    function getColorForSecurity(app, questionForApp) {
+        let unknownValue;
+        let notUsedValue = 1;
+
+        let singleConcernForSecurity;
+        const data = app.filter((appData) => {
+            return appData['App name'] === questionForApp;
+        });
+
+        // Finding insufficient data
+        data.forEach((app) => {
+            // Identifying insufficient data
+            const unknowns = Object.keys(app).filter((key) => {
+                return app[key] === null;
+            });
+            unknownValue = unknowns.length;
+        });
+        // These not security concerns
+        if (data[0] && data[0]['Is data collected by third party?*'] === null) notUsedValue++;
+
+        const inSufficientCalculation = unknownValue - notUsedValue;
+
+        // Total security question are 5
+        if (5 === inSufficientCalculation) return '#899499';
+
+        notUsedValue = 0;
+
+        // Finding a single concern
+
+        data.forEach((app) => {
+            // Identifying insufficient data
+            const singleConcern = Object.keys(app).filter((key) => {
+                return app[key] === 'Yes';
+            });
+            singleConcernForSecurity = singleConcern.length;
+        });
+
+        const singleConcernCalculation = singleConcernForSecurity - notUsedValue;
+        if (singleConcernCalculation > 0) return '#FF033E';
+
+        return '#32de84';
     }
 </script>
 
