@@ -11,13 +11,16 @@
             </div>
             <div class="bubble-description">
                 <span class="bubble-info">Security Bubble</span>
-                <img title="Size of the bubble proportional to questions answered." src="../assets/information-button.png " height="15px" />
+                <img
+                    title="Size of the bubble is proportional to the questions answered."
+                    src="../assets/information-button.png "
+                    height="15px" />
             </div>
         </div>
     </div>
 
     <fieldset id="lsphere">
-        <legend>Color codes</legend>
+        <legend>Sphere Color codes</legend>
         <div class="legend-text">
             <div class="block-red"></div>
             <div>More substantial concerns exist</div>

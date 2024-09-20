@@ -33,7 +33,7 @@
         <div class="qna-block">
             <p class="category">Security Questions</p>
             <hr />
-            <div class="question">Can device be controlled remotely?</div>
+            <div class="question">Can the device be controlled remotely?</div>
             <div class="answer">{{ getQuestion1(app, selectedOption) }}</div>
             <div class="question">Can harmful code be executed remotely?</div>
             <div class="answer">{{ getQuestion2(app, selectedOption) }}</div>
