@@ -9,32 +9,28 @@
             <div class="outer_sphere outer_fill">
                 <div id="sphere_id" class="sphere securty_fill"></div>
             </div>
-            <span class="bubble-info">Security Bubble</span>
-        </div>
-    </div>
-    <div class="label-container">
-        <div class="label-column">
-            <div class="label">
-                <div class="label">
-                    <div class="info">Color code description</div>
-                    <div class="desc">
-                        <div class="block-red"></div>
-                        More substantial concerns exist
-                    </div>
-                    <div class="desc">
-                        <div class="block-gray"></div>
-                        Insufficient information available
-                    </div>
-                    <div class="desc">
-                        <div class="block-green"></div>
-                        Less substantial concerns exist
-                    </div>
-                    <div class="info add-legend">Bubble Size</div>
-                    <div class="desc">Size of security bubble is proportionaly to questions answered</div>
-                </div>
+            <div class="bubble-description">
+                <span class="bubble-info">Security Bubble</span>
+                <img title="Size of the bubble proportional to questions answered." src="../assets/information-button.png " height="15px" />
             </div>
         </div>
     </div>
+
+    <fieldset id="lsphere">
+        <legend>Color codes</legend>
+        <div class="legend-text">
+            <div class="block-red"></div>
+            <div>More substantial concerns exist</div>
+        </div>
+        <div class="legend-text">
+            <div class="block-green"></div>
+            <div>Less substantial concerns exist</div>
+        </div>
+        <div class="legend-text">
+            <div class="block-gray"></div>
+            <div>Insufficient information available</div>
+        </div>
+    </fieldset>
 </template>
 
 <script setup>
@@ -122,23 +118,13 @@
         background: #d6bba9;
     }
 
-    .label-container {
+    #lsphere {
+        width: 20%;
+        margin: auto;
+    }
+    .legend-text {
         display: flex;
         flex-direction: row;
-        margin-top: 8px;
-    }
-
-    .label-column {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center align items horizontally */
-        text-align: center; /* Center align text within each column */
-        margin-right: 5%;
-    }
-
-    .label {
-        margin-bottom: 8px;
     }
 
     .info {
@@ -156,8 +142,8 @@
     .block-red,
     .block-green,
     .block-gray {
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
         margin-right: 5px;
     }
@@ -186,5 +172,10 @@
     }
     .add-legend {
         margin-top: 8px;
+    }
+    .bubble-description {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 </style>

@@ -31,7 +31,7 @@
             :spherePrivacyColor="getColorForPrivacy(app, selectedOption)"
             :sphereSecurityColor="getColorForSecurity(app, selectedOption)"></SphereFills>
         <div class="qna-block">
-            <p class="category">Security</p>
+            <p class="category">Security Questions</p>
             <hr />
             <div class="question">Can device be controlled remotely?</div>
             <div class="answer">{{ getQuestion1(app, selectedOption) }}</div>
@@ -43,7 +43,7 @@
             <div class="answer">{{ getQuestion4(app, selectedOption) }}</div>
             <div class="question">Which phone hardware(s) can be misused from this app?</div>
             <div class="answer">{{ getQuestion6(app, selectedOption) }}</div>
-            <p class="category">Privacy</p>
+            <p class="category">Privacy Question</p>
             <hr />
             <div class="question">Is data collected by third party?</div>
             <div class="answer">{{ getQuestion5(app, selectedOption) }}</div>
