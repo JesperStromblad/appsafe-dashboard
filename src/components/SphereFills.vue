@@ -12,7 +12,7 @@
             <div class="bubble-description">
                 <span class="bubble-info">Security Bubble</span>
                 <img
-                    title="Size of the bubble is proportional to the questions answered."
+                    title="Bubble size is the proportion of questions answered based on security analysis"
                     src="../assets/information-button.png "
                     height="15px" />
             </div>
