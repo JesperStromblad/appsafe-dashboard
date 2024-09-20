@@ -21,7 +21,7 @@
         <div class="custom-select">
             <select v-model="selectedOption">
                 <option disabled value="">Please select one</option>
-                <option v-for="(data, index) in app" :value="data['App name']" :key="index">{{ data['App name'] }}</option>
+                <option v-for="(data, index) in filterHeading(app)" :value="data['App name']" :key="index">{{ data['App name'] }}</option>
             </select>
         </div>
         <h2>Data privacy concerns</h2>
@@ -68,6 +68,11 @@
         const data = await axios.get('appData50.json');
         appData.value = data.data;
     });
+
+    // Data object has heading so we don't want to show this in options.
+    function filterHeading(app) {
+        return app.filter((app) => app['App name'] !== '');
+    }
 
     function getQuestion1(app, questionForApp) {
         const data = app.filter((appData) => {
