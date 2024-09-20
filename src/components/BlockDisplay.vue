@@ -40,6 +40,7 @@
         border-radius: 5%;
         width: 15%;
         background-color: #f4f4f4;
+        overflow: hidden;
     }
     .data {
         background-color: #f4f4f4;
@@ -67,5 +68,20 @@
     }
     .align {
         padding-top: 30px;
+    }
+
+    /* Smaller tablets and mobiles */
+    @media (max-width: 1130px) {
+        .data {
+            font-size: 30px;
+        }
+        .label {
+            color: rgb(141, 141, 141);
+            font-size: 1em;
+        }
+        .analytic-label {
+            font-size: 10px;
+            color: rgb(141, 141, 141);
+        }
     }
 </style>
