@@ -11,7 +11,7 @@
     <div v-for="(app, index) in appData" :key="index">
         <div class="blocks">
             <BlockDisplay :data="31" info="Total Apps"></BlockDisplay>
-            <BlockDisplay :data="getTotalIssues(app)" info="User data risks"></BlockDisplay>
+            <BlockDisplay :data="getTotalIssues(app)" info="Total # of data risks"></BlockDisplay>
             <BlockDisplay :data="2" info="Total issues" :company="true"></BlockDisplay>
         </div>
 
