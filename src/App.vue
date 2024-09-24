@@ -21,11 +21,16 @@
         <div class="custom-select">
             <select v-model="selectedOption">
                 <option disabled value="">Please select one</option>
-                <option v-for="(data, index) in filterHeading(app)" :value="data['App name']" :key="index">{{ data['App name'] }}</option>
+                <option v-for="(data, index) in filterHeading(app)" :value="data['App name']" :key="index">
+                    {{ data['App name'] }}
+                </option>
             </select>
         </div>
         <h2>Data privacy and security concerns</h2>
-
+        <AppDetails
+            :appName="selectedOption"
+            :appImage="getAppImage(app, selectedOption)"
+            :appUrl="getAppUrl(app, selectedOption)"></AppDetails>
         <SphereFills
             :issues="getIssues(app, selectedOption)"
             :spherePrivacyColor="getColorForPrivacy(app, selectedOption)"
@@ -58,11 +63,12 @@
 
     import BlockDisplay from './components/BlockDisplay.vue';
     import SphereFills from './components/SphereFills.vue';
+    import AppDetails from './components/AppDetails.vue';
 
     // Define a reactive value for the meter
 
     let appData = ref([]);
-    let selectedOption = ref('7 Cups: Online Therapy & Chat');
+    let selectedOption = ref('7 Cups: Therapy & Support');
 
     onMounted(async () => {
         const data = await axios.get('appData50.json');
@@ -251,6 +257,20 @@
         if (singleConcernCalculation > 0) return '#FF033E';
 
         return '#32de84';
+    }
+
+    function getAppImage(app, appData) {
+        const data = app.filter((thisApp) => {
+            return thisApp['App name'] === appData;
+        });
+        return data[0]['url'];
+    }
+
+    function getAppUrl(app, appData) {
+        const data = app.filter((thisApp) => {
+            return thisApp['App name'] === appData;
+        });
+        return data[0]['playstore'];
     }
 </script>
 
