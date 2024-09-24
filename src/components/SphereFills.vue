@@ -123,7 +123,8 @@
 
     #lsphere {
         width: 20%;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .legend-text {
         display: flex;
@@ -172,6 +173,7 @@
         display: flex;
         justify-content: space-around; /* Center align content horizontally */
         width: 90%;
+        margin: auto;
     }
     .add-legend {
         margin-top: 8px;
