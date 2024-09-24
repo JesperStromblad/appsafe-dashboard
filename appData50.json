@@ -7,16 +7,20 @@
             "Can third party update a ligitimate app with a malicious one?": "Can third party update a ligitimate app with a malicious one?",
             "Can third party intercept application communication?": "Can third party intercept application communication?",
             "Can harmful code be executed remotely?": "Can harmful code be executed remotely?",
-            "Can device be controlled remotely?": "Can device be controlled remotely?"
+            "Can device be controlled remotely?": "Can device be controlled remotely?",
+            "url": "",
+            "playstore": ""
         },
         {
-            "App name": "7 Cups: Online Therapy & Chat",
+            "App name": "7 Cups: Therapy & Support",
             "Which phone hardware(s) can be misued from app?*": "Storage",
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://play-lh.googleusercontent.com/vtkK69J_JMkUcDweuZJfDLdapkmdqnnp5h2-PCv4u2iNY9oCEk-C3sSERBpf-RZ4-xI=s96",
+            "playstore": "https://play.google.com/store/apps/details?id=com.sevencupsoftea.app&hl=en"
         },
         {
             "App name": "PanicShield - Panic Attack Aid",
@@ -25,7 +29,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/VAkTJ9fMpj27dmr4TYQJjwHFl5QkWEWe3ye1eDiLmLUfBKKIGhfyLQd4KXKLv4575_dK=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.panic.shield&hl=en"
         },
         {
             "App name": "Slumber",
@@ -34,7 +40,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/lWiFegdBGaMNmve2WP_6PbGf5FVr59zBNZbG4IXVq58TU5ADAgxDc4AjOLneho2mhPc=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=fm.slumber.sleep.meditation.stories"
         },
         {
             "App name": "Moodnotes",
@@ -43,7 +51,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/OVpX4zBlQpW207_qALO8MyX7rY4KMqtVR5eLr5V8cDw7NAxWk4Wh0d5mNkX-NGt21w=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.mobiserv.moodnotes&hl=en"
         },
         {
             "App name": "Habitica",
@@ -52,16 +62,20 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/js9LcEDMPaWBLW-kX6zrCxVwKDKTsvQRgIubQnZB0wQs4NfNcxPkNlXQOpIDXKX0y5Y=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica&hl=en"
         },
         {
-            "App name": "Woebot: Your Self-Care Expert",
+            "App name": "Woebot: The Mental Health Ally",
             "Which phone hardware(s) can be misued from app?*": "Storage",
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/_QF1LrB8D9xbYBVjjgKdWV5bSahpPOmMRUQ0NPrYuzq4eKHwkKZ_PE2aD8w6rsbwBA=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.woebot&hl=en"
         },
         {
             "App name": "distrACT",
@@ -70,7 +84,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://play-lh.googleusercontent.com/LTnSgLQOBbpCT0H5MrNnvKtTezwbcDDHkpQr8pfweI8Jw21Mr5RR6NsPpRWVhcTW8Q=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.expertselfcare.selfharm&hl=en"
         },
         {
             "App name": "Headspace",
@@ -79,7 +95,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/ec2YK1cuiNZF-46SRBUZsxLtY0s4umkX5S-167yymfn68HyUqDiauAJGbf57-Ta47Kk=s96",
+            "playstore": "https://play.google.com/store/apps/details?id=com.getsomeheadspace.android&hl=en"
         },
         {
             "App name": "VGZ Mindfullness coach",
@@ -88,7 +106,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/WNWEVJI99khUO8EuwyoskBYgc1HdEo7rRdM0eB1t6z0zZSu9ayFGD8mBxaSeLGNs6w=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=nl.vgz.mindfulness&hl=nl"
         },
         {
             "App name": "Minddistrict",
@@ -97,7 +117,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/fCnKrSBWS_7JGeIDsqpX-VhpP3rgWyKNxtJuvidrSPm7UR1E4BL0DrACSnzYJeM-=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.minddistrict.android&hl=en"
         },
         {
             "App name": "Insight Timer",
@@ -106,16 +128,20 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://play-lh.googleusercontent.com/5nhGeNbFEhYY63llcC_sgnXkgwnWRqQ6tshDg8ySTf-vHWK-DPGMqwGrnR9ca670eSYb=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2&hl=en"
         },
         {
-            "App name": "HubOfHope",
+            "App name": "Hub Of Hope",
             "Which phone hardware(s) can be misued from app?*": "Location, Storage",
             "Is data collected by third party?*": null,
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/ARewZ-f6wvobJlcdLZXixzhHUDhpNgTq9gGWsngOs_Vmvd5W84AgcVCE8U13iKs5QiL4=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.chasingthestigma.hubofhope&hl=en"
         },
         {
             "App name": "Mindler",
@@ -124,7 +150,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/oXKmtv9ESUHfZUxoJNTR8RFKWkLSo3IH8dTHrUUtIUEO2Qi-hoCQJGUl2Yn6QavAK3Y=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=nl.mindler.video&hl=en"
         },
         {
             "App name": "Online Therapy: Meet with Your Therapist Online",
@@ -133,7 +161,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://image.winudf.com/v2/image1/b25saW5lLnRoZXJhcHkubWVldF9pY29uXzE2MjU3NjUzMTBfMDk3/icon.webp?w=280&fakeurl=1&type=.webp",
+            "playstore": "https://apkpure.com/online-therapy-meet-with-your/online.therapy.meet"
         },
         {
             "App name": "Calm",
@@ -142,16 +172,20 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/S76GphUu2pZa249td2Bb4XAhLcPRrFdL1zp_5qU1ouukvRq9r0-8jJ-CruaTtdT6g84=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.calm.android&hl=en"
         },
         {
-            "App name": "Feeling Good: Mental Health",
+            "App name": "Sorted: Mental Health",
             "Which phone hardware(s) can be misued from app?*": null,
             "Is data collected by third party?*": null,
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/_QAn-t3D60ye46Z9oiVdBK_dich3lTkNF6ecPVMybx8d5yyEnbObfq3Ie05UqWVHZw=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=uk.co.positiverewards.feelgood"
         },
         {
             "App name": "Holly Health (personal coach)",
@@ -160,16 +194,20 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/at35HMjE_WpuM-hF-6Q6pjsSDBeeuvgKzE--v721luct4xzTykyKKnPFKWnSWKib01U=s96",
+            "playstore": "https://play.google.com/store/apps/details?id=com.app.hollyhealth&hl=en"
         },
         {
-            "App name": "Sleepio - for insomnia",
+            "App name": "Sleepio",
             "Which phone hardware(s) can be misued from app?*": "Storage",
             "Is data collected by third party?*": "Huawei ",
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/3W4aUFgGELH7teHXDg4kFrd8bpmK7_s-06ciJFuGQFRMm2Oi96T8TUlqve5A8dFQPw=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.bighealth.sleepio.platgen.production&hl=en"
         },
         {
             "App name": "Noisli",
@@ -178,7 +216,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://www.noisli.com/img/apps/logo.png",
+            "playstore": "https://www.noisli.com/apps"
         },
         {
             "App name": "Somryst",
@@ -187,7 +227,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "",
+            "playstore": "https://www.somryst.com/"
         },
         {
             "App name": "Dream EZ",
@@ -196,7 +238,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://image.winudf.com/v2/image/b3JnLnQyaGVhbHRoLmRyZWFtZXpfaWNvbl9qbzdudjdhdA/icon.webp?w=280&fakeurl=1&type=.webp",
+            "playstore": "https://s18798.pcdn.co/northstar/wp-content/uploads/sites/20115/2021/01/Dream-EZ-_NORTHSTAR_4.15.2019.pdf"
         },
         {
             "App name": "Virtual Hope Box",
@@ -205,7 +249,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": null,
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/c8Y1NnWX86IP7QRFIZyzir4YU3FTd4vyAb4pqkWsVXgAQ89562peW3PcKsTxHC6MxAc=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=mil.dha.vhb&hl=en"
         },
         {
             "App name": "Daylio Journal",
@@ -214,7 +260,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/wweiF4j7oCrolJVXpqaBf7egP7ia8j0nt4b97ebS7BcRRQLLIp6fA3HDX0qT1qd4UQ=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=net.daylio&hl=en"
         },
         {
             "App name": "Brain in Hand",
@@ -223,16 +271,20 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": null,
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/IU2E_TARnXj5Nn6_Fjzh-_uxwjialWIgieiQaIzfISA_ItuB7cZKLr1Lty8R4vEvlFRt=s96",
+            "playstore": "https://play.google.com/store/apps/details?id=com.bih.mobile&hl=eni "
         },
         {
-            "App name": "Ilovehue",
+            "App name": "I Love Hue",
             "Which phone hardware(s) can be misued from app?*": "Storage",
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": null,
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/Y8ggsigXP9PMcLpxZ0TOHIid3cGyxLZHIGd-OP_pzo-EDF0x_Z1jkcSV_hVh2D_n4w=s96",
+            "playstore": "https://play.google.com/store/apps/details?id=com.zutgames.ilovehue&hl=en"
         },
         {
             "App name": "MyCognition PRO",
@@ -241,7 +293,9 @@
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://image.winudf.com/v2/image1/Y29tLm15Y29nbml0aW9uLnByb19pY29uXzE1NTQ3NTQ3OTZfMDAy/icon.webp?w=280&fakeurl=1&type=.webp",
+            "playstore": "https://welldoing.org/mycognition"
         },
         {
             "App name": "Everyday Mental Health by Wysa",
@@ -250,7 +304,9 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/VB_89jtivrIFrcLUWbDqqmVjtliMbr6i-yETuyaBx-u9Nl6ExAcxWLSbOzYM32fOeLs=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=bot.wysa.research&hl=en"
         },
         {
             "App name": "Clear Fear",
@@ -259,34 +315,42 @@
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": null,
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/XK7MlRs8WODeFSc9CjyHTWWqTZcSEN9REP2qoA3LLA6rsWDlACkTEjmfeoaAfj5jBqA=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=uk.org.stem4.clearfear&hl=en"
         },
         {
-            "App name": "InnerHour: Self-Care Therapy",
+            "App name": "Amaha (InnerHour): Self-Care Therapy",
             "Which phone hardware(s) can be misued from app?*": null,
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://play-lh.googleusercontent.com/pTrWbDLZSS4uII1Gmyn9a6okV3JOH2Pv_TnqI5L3P2GkIId0omGXNOqnKkiEODWPpEA3=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.theinnerhour.b2b&hl=en"
         },
         {
-            "App name": "MindShift CBT",
+            "App name": "MindShift CBT - Anxiety Relief",
             "Which phone hardware(s) can be misued from app?*": null,
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": null,
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": null,
-            "Can device be controlled remotely?": null
+            "Can device be controlled remotely?": null,
+            "url": "https://play-lh.googleusercontent.com/RfTRnc8WRXieNrbQ_-FtWqJM908sPTSbFq8FOVpmLBsYz0V3N_UVjDcCbJ7mTN-wNKY2=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.bstro.MindShift&hl=en"
         },
         {
-            "App name": "Glow Eve",
+            "App name": "Eve: Track. Shop. Period",
             "Which phone hardware(s) can be misued from app?*": null,
             "Is data collected by third party?*": "Google",
             "Can third party update a ligitimate app with a malicious one?": "Yes",
             "Can third party intercept application communication?": "Yes",
             "Can harmful code be executed remotely?": "Yes",
-            "Can device be controlled remotely?": "Yes"
+            "Can device be controlled remotely?": "Yes",
+            "url": "https://play-lh.googleusercontent.com/z0GwQIYdW4681Q-_JWWWS-84qrvjkk-2uoYn-NyCgYrdEFHjmiRABLGMRzeI_sQZEA=w480-h960",
+            "playstore": "https://play.google.com/store/apps/details?id=com.glow.android.eve&hl=en"
         }
     ]
 }
