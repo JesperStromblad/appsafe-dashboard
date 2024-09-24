@@ -191,12 +191,12 @@
         if (data[0] && data[0]['Can third party update a ligitimate app with a malicious one?'] !== null) {
             totalNotNull++;
         }
-        if (data[0] && data[0]['Is data collected by third party?*'] !== null) {
-            totalNotNull++;
-        }
+
         if (data[0] && data[0]['Which phone hardware(s) can be misued from app?*'] !== null) {
             totalNotNull++;
         }
+        console.debug(data[0]);
+        console.debug('Total answers', totalNotNull);
         // Total questions are six
         return totalNotNull * 50;
     }
@@ -248,7 +248,7 @@
         data.forEach((app) => {
             // Identifying insufficient data
             const singleConcern = Object.keys(app).filter((key) => {
-                return app[key] === 'Yes';
+                return (app[key] === 'Yes') | (app[key] === null);
             });
             singleConcernForSecurity = singleConcern.length;
         });

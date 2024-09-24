@@ -60,6 +60,7 @@
     });
 
     function setSphereSize(size) {
+        console.debug('Size', size);
         const maxSize = 250;
         const minSize = 50;
         let minMargin = 40;
