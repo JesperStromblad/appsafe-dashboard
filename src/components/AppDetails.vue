@@ -6,7 +6,6 @@
             /></a>
         </div>
         <div class="appInfo">
-            <p>{{ appName }}</p>
             <a @mouseover="hover = true" @mouseleave="hover = false" target="_blank" :href="appUrl"
                 ><img src="../assets/more.png" height="40px" />
             </a>
@@ -54,15 +53,10 @@
         width: 30%;
         height: 96px;
         margin: auto;
-
         justify-content: center;
+        align-items: center;
     }
-    p {
-        margin-left: 1em;
-        font-size: large;
-        font-weight: bold;
-        color: gray;
-    }
+
     .details {
         position: absolute;
         font-size: medium;
@@ -73,5 +67,8 @@
         padding-left: 1em;
         padding-right: 1em;
         font-weight: bold;
+    }
+    .appInfo {
+        margin-left: 1em;
     }
 </style>
