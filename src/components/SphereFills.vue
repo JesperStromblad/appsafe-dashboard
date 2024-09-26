@@ -2,7 +2,7 @@
     <div class="parallel_sphere">
         <div>
             <div title="" id="sphere_color" class="sphere fill"></div>
-            <span class="bubble-info">Privacy Bubble</span>
+            <span class="bubble-info">Privacy</span>
         </div>
 
         <div>
@@ -10,7 +10,7 @@
                 <div id="sphere_id" class="sphere securty_fill"></div>
             </div>
             <div class="bubble-description">
-                <span class="bubble-info">Security Bubble</span>
+                <span class="bubble-info">Security</span>
                 <img
                     title="Bubble size represents the proportion of questions answered by security analysis."
                     src="../assets/information-button.png "

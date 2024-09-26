@@ -46,11 +46,11 @@
             <div class="answer">{{ getQuestion3(app, selectedOption) }}</div>
             <div class="question">Can a third party update this legitimate app with a malicious one?</div>
             <div class="answer">{{ getQuestion4(app, selectedOption) }}</div>
-            <div class="question">Which phone hardware(s) can be misused from this app?</div>
+            <div class="question">Which phone hardware can be misused from this app?</div>
             <div class="answer">{{ getQuestion6(app, selectedOption) }}</div>
             <p class="category">Privacy Question</p>
             <hr />
-            <div class="question">Is data collected by third party?</div>
+            <div class="question">Is data collected by a third party?</div>
             <div class="answer">{{ getQuestion5(app, selectedOption) }}</div>
         </div>
     </div>
